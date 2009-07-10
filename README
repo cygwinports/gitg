@@ -1,0 +1,106 @@
+gitg
+------------------------------------------
+gitg is a git repository viewer targeting gtk+/GNOME. gitg targets cases 
+where it is useful to provide a graphical representation of git data or 
+actions. gitg does not aim to be an advanced tool which allows access to 
+every feature of git through a graphical interface, it will however try 
+to incorporate common actions which might require multiple actions on 
+the command line (like staging, unstaging, reverting and committing).
+
+Runtime requirements:
+  cygwin-1.7.0-50
+  git
+  libcairo2-1.8.6-10
+  libgcc1-4.3.2-2
+  libgconf2_4-2.26.2-1
+  libgdk_pixbuf2.0_0-2.16.2-1
+  libglib2.0_0-2.20.3-1
+  libgtk2.0_0-2.16.2-1
+  libgtksourceview2.0_0-2.6.2-1
+  libintl8-0.17-11
+  libpango1.0_0-1.24.2-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  autoconf2.5-2.63-10
+  automake1.10-1.10.2-10
+  binutils-20080624-2
+  cygport-0.9.6-1
+  gawk-3.1.6-2
+  gcc4-core-4.3.2-2
+  gnome-common-2.26.0-2
+  intltool-0.40.6-1
+  libtool-2.2.7a-13
+  make-3.81-2
+  pkg-config-0.23b-10
+  sed-4.1.5-2
+
+Canonical website:
+  http://trac.novowork.com/gitg/
+
+Canonical download:
+  ftp://ftp.gnome.org/pub/GNOME/sources/gitg/
+
+-------------------------------------------
+
+Build instructions:
+  unpack gitg-0.0.4-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./gitg-0.0.4-X.cygport all
+
+This will create:
+  /usr/src/gitg-0.0.4-X-src.tar.bz2
+  /usr/src/gitg-0.0.4-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /etc/gconf/schemas/gitg.schemas
+  /etc/postinstall/gitg.sh
+  /etc/preremove/gitg.sh
+  /usr/bin/gitg.exe
+  /usr/share/applications/gitg.desktop
+  /usr/share/doc/gitg/AUTHORS
+  /usr/share/doc/gitg/COPYING
+  /usr/share/doc/gitg/ChangeLog
+  /usr/share/doc/gitg/NEWS
+  /usr/share/doc/gitg/README
+  /usr/share/gitg/icons/gitg.svg
+  /usr/share/gitg/icons/gitg128x128.png
+  /usr/share/gitg/icons/gitg16x16.png
+  /usr/share/gitg/icons/gitg24x24.png
+  /usr/share/gitg/icons/gitg32x32.png
+  /usr/share/gitg/icons/gitg48x48.png
+  /usr/share/gitg/icons/gitg64x64.png
+  /usr/share/gitg/language-specs/gitgdiff.lang
+  /usr/share/gitg/styles/gitgstyle.xml
+  /usr/share/gitg/ui/gitg-commit-menu.ui
+  /usr/share/gitg/ui/gitg-menus.xml
+  /usr/share/gitg/ui/gitg-preferences.ui
+  /usr/share/gitg/ui/gitg-repository.ui
+  /usr/share/gitg/ui/gitg-tag.ui
+  /usr/share/gitg/ui/gitg-ui.xml
+  /usr/share/gitg/ui/gitg-window.ui
+  /usr/share/locale/da/LC_MESSAGES/gitg.mo
+  /usr/share/locale/es/LC_MESSAGES/gitg.mo
+  /usr/share/locale/fr/LC_MESSAGES/gitg.mo
+  /usr/share/locale/gl/LC_MESSAGES/gitg.mo
+  /usr/share/locale/nl/LC_MESSAGES/gitg.mo
+  /usr/share/locale/pa/LC_MESSAGES/gitg.mo
+  /usr/share/locale/sv/LC_MESSAGES/gitg.mo
+  /usr/share/man/man1/gitg.1.gz
+  /usr/share/pixmaps/gitg48x48.png
+
+------------------
+
+Port Notes:
+
+----- version 0.0.4-1 -----
+Initial release for Cygwin 1.7.
+
+
+Cygwin port maintained by:
+http://sourceware.org/cygwinports/
