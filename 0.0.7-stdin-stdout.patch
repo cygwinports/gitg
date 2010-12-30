@@ -1,6 +1,6 @@
---- origsrc/gitg-0.0.6/gitg/gitg-runner.c	2010-01-24 06:17:16.000000000 -0600
-+++ src/gitg-0.0.6/gitg/gitg-runner.c	2010-02-25 00:50:48.755822500 -0600
-@@ -33,6 +33,13 @@
+--- origsrc/gitg-0.0.7/libgitg/gitg-runner.c
++++ src/gitg-0.0.7/libgitg/gitg-runner.c
+@@ -34,6 +34,13 @@
  #include <gio/gunixoutputstream.h>
  #include <gio/gunixinputstream.h>
  
@@ -13,4 +13,4 @@
 +
  #define GITG_RUNNER_GET_PRIVATE(object)(G_TYPE_INSTANCE_GET_PRIVATE((object), GITG_TYPE_RUNNER, GitgRunnerPrivate))
  
- /* Signals */
+ struct _GitgRunnerPrivate
