@@ -5,5 +5,4 @@ HOMEPAGE="http://trac.novowork.com/gitg/"
 
 PATCH_URI="
 	0.0.7-stdin-stdout.patch
-	0.0.7-gtk3-unstable.patch
 "
