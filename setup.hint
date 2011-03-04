@@ -1,5 +1,5 @@
 category: Devel
-requires: git libcairo2 libgdk_pixbuf2.0_0 libglib2.0_0 libgtk2.0_0 libgtksourceview2.0_0 libintl8 libpango1.0_0
+requires: git libcairo2 libgdk_pixbuf2.0_0 libglib2.0_0 libgtk3_0 libgtksourceview3.0_0 libintl8 libpango1.0_0
 sdesc: "GTK+ git repository viewer"
 ldesc: "gitg is a git repository viewer targeting gtk+/GNOME. gitg 
 targets cases where it is useful to provide a graphical representation 
