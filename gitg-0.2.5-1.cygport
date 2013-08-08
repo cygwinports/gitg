@@ -1,8 +1,0 @@
-inherit gnome2
-
-DESCRIPTION="GTK+ git repository viewer"
-HOMEPAGE="http://trac.novowork.com/gitg/"
-
-PATCH_URI="
-	0.0.7-stdin-stdout.patch
-"

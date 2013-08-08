@@ -1,0 +1,19 @@
+inherit gnome2
+
+NAME="gitg"
+VERSION=0.2.6
+RELEASE=1
+CATEGORY="Devel"
+SUMMARY="GTK+ git repository viewer"
+DESCRIPTION="gitg is a git repository viewer for the GNOME desktop. gitg
+targets cases where it is useful to provide a graphical representation of git
+data or actions. gitg does not aim to be an advanced tool which allows access
+to every feature of git through a graphical interface, it will however try to
+incorporate common actions which might require multiple actions on the command
+line (like staging, unstaging, reverting and committing)."
+REQUIRES="git"
+HOMEPAGE="http://trac.novowork.com/gitg/"
+
+PATCH_URI="
+	0.0.7-stdin-stdout.patch
+"
