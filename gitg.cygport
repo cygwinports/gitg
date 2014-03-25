@@ -1,7 +1,7 @@
 inherit gnome2
 
 NAME="gitg"
-VERSION=0.2.6
+VERSION=0.2.7
 RELEASE=1
 CATEGORY="Devel"
 SUMMARY="GTK+ git repository viewer"
@@ -16,4 +16,10 @@ HOMEPAGE="http://trac.novowork.com/gitg/"
 
 PATCH_URI="
 	0.0.7-stdin-stdout.patch
+	0.2.7-glib-gettext.patch
+	0.2.7-gtksourceview310.patch
 "
+
+gitg_CONTENTS="etc/ usr/bin/ usr/share/applications/ usr/share/doc/ usr/share/gitg/
+	usr/share/glib-2.0/ usr/share/icons/ usr/share/locale/ usr/share/man/"
+PKG_IGNORE="usr/include/ usr/lib/lib* usr/lib/pkgconfig/"

@@ -1,0 +1,12 @@
+--- origsrc/gitg-0.2.7/configure.ac	2013-04-05 06:23:46.000000000 -0500
++++ src/gitg-0.2.7/configure.ac	2014-03-25 08:28:40.421216600 -0500
+@@ -45,8 +45,7 @@ LT_INIT
+ # i18n stuff
+ IT_PROG_INTLTOOL([0.40.0])
+ 
+-AM_GNU_GETTEXT_VERSION([0.17])
+-AM_GNU_GETTEXT([external])
++AM_GLIB_GNU_GETTEXT
+ 
+ GETTEXT_PACKAGE=gitg
+ AC_SUBST(GETTEXT_PACKAGE)
