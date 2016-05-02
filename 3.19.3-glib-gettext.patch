@@ -1,0 +1,12 @@
+--- origsrc/gitg-3.19.3/configure.ac	2015-12-23 01:32:26.000000000 -0600
++++ src/gitg-3.19.3/configure.ac	2015-12-29 10:45:22.522068800 -0600
+@@ -52,8 +52,7 @@ LT_INIT(disable-static)
+ # i18n stuff
+ IT_PROG_INTLTOOL([0.40.0])
+ 
+-AM_GNU_GETTEXT_VERSION([0.17])
+-AM_GNU_GETTEXT([external])
++AM_GLIB_GNU_GETTEXT
+ 
+ GETTEXT_PACKAGE=gitg
+ 
