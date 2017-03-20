@@ -1,7 +1,7 @@
 inherit gnome2
 
 NAME="gitg"
-VERSION=3.19.4
+VERSION=3.22.0
 RELEASE=1
 CATEGORY="Devel"
 SUMMARY="GTK+ git repository viewer"
